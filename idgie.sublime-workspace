@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"default",
+				"default_url_options"
+			],
+			[
 				"style",
 				"stylesheet_link_tag"
 			],
@@ -184,34 +188,34 @@
 	"buffers":
 	[
 		{
+			"file": "blog/app/assets/stylesheets/additions_and_overrides.sass",
+			"settings":
+			{
+				"buffer_size": 4587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/app/assets/javascripts/scripts.js",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "blog/app/views/welcome/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 2816,
+				"buffer_size": 2457,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "blog/app/views/retailers/index.html.erb",
+			"file": "blog/app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 336,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/app/controllers/retailers_controller.rb",
-			"settings":
-			{
-				"buffer_size": 97,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1764,
+				"buffer_size": 50,
 				"line_ending": "Unix"
 			}
 		}
@@ -360,45 +364,65 @@
 	[
 		"/Users/patrikbackstrom/Git/RoR/blog",
 		"/Users/patrikbackstrom/Git/RoR/blog/app",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/models",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/layouts",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers",
 		"/Users/patrikbackstrom/Git/RoR/blog/config",
+		"/Users/patrikbackstrom/Git/RoR/blog/config/initializers",
+		"/Users/patrikbackstrom/Git/RoR/blog/db",
 		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate"
 	],
 	"file_history":
 	[
+		"/Users/patrikbackstrom/Git/RoR/.gitignore",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/layouts/application.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/config/environments/development.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/models/user.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/config/routes.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate/20150624213851_devise_create_users.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/Gemfile",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/models/admin.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/admin_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/edit.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/config/initializers/devise.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate/20150624200451_devise_create_admins.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/scripts.js",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/welcome/index.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/index.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/_form.html.erb",
+		"/Users/patrikbackstrom/Git/Websites/idgie.se/css/main.css",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/retailers_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/_form.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/articles_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/new.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/edit.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/new.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/additions_and_overrides.sass",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/index.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/show.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/welcome.scss",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/application_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/welcome.js",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/welcome.coffee",
 		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate/20150617123849_create_articles.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate/20150622122610_retailers.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/models/retailer.rb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/articles_controller.rb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/retailers_controller.rb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/additions_and_overrides.sass",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/models/comment.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/models/article.rb",
 		"/Users/patrikbackstrom/Git/Websites/idgie.se2/css/main.css",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/application.scss",
-		"/Users/patrikbackstrom/Git/RoR/blog/Gemfile",
 		"/Users/patrikbackstrom/Git/RoR/blog.sublime-project",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/layouts/application.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/config/routes.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/application.js",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/welcome_controller.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/application.css.sass",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/application.css",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/show.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/articles.scss",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/main.css",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/comments/_form.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/comments_controller.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/comments/_comment.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/comments/_comments.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/new.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/_form.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/edit.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/welcome/index.html.erb",
 		"/Users/patrikbackstrom/.bash_profile",
 		"/Users/patrikbackstrom/Git/T6/DIT565 Software Engineering and Management Bachelor Thesis Project/final hand-in/sections/resultsanddiscussion.tex",
 		"/Users/patrikbackstrom/Git/T6/DIT565 Software Engineering and Management Bachelor Thesis Project/final hand-in/thesis_hand-in.tex",
@@ -478,25 +502,7 @@
 		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/impact.tex",
 		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/dissemination.tex",
 		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/executive.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/summary.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/Assignment_bib.bib",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/Assignment_IBP.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/Assignment_bib.bib",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/Assignment_5.tex",
-		"/Users/patrikbackstrom/Desktop/svar",
-		"/Users/patrikbackstrom/Downloads/slip5000/read.me",
-		"/Users/patrikbackstrom/Desktop/test.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/texput.log",
-		"/Users/patrikbackstrom/Desktop/svebim.txt",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4-2/Review of Group 16/review_of_assignment_4_group_16.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 5/Review of Group 16/review_of_assignment_5_group_16.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4-2/Review of Group 16/review_of_assignment_4_group_1.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 5/Review of Group 16/review_of_assignment_5_group_1.tex",
-		"/Users/patrikbackstrom/Downloads/Formula 1.2015.Australia.Race.DANISH.720p.HDTV-Z97/Formula 1.2015.Race.DANISH.720p.HDTV-Z97.nfo",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4-2/Assignment_X.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4/sections/methodology.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4-2/Assignment_bib.bib",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 4-2/Assignment_bib.bst"
+		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/summary.tex"
 	],
 	"find":
 	{
@@ -516,6 +522,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mailer",
 			";",
 			"col-md-4",
 			"application.html.erb",
@@ -642,8 +649,7 @@
 			"BookingComponent_GuestImpl",
 			"post release",
 			"cross-functional",
-			"\"s-f\"",
-			"s-f"
+			"\"s-f\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -666,27 +672,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "blog/app/views/welcome/index.html.erb",
+					"file": "blog/app/assets/stylesheets/additions_and_overrides.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2816,
+						"buffer_size": 4587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2725,
-								2725
+								4587,
+								4587
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 952.0,
+						"translation.y": 1216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -694,53 +701,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "blog/app/views/retailers/index.html.erb",
+					"file": "blog/app/assets/javascripts/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 336,
+						"buffer_size": 922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								922,
+								922
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "blog/app/controllers/retailers_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 97,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -750,30 +729,58 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "blog/config/routes.rb",
+					"buffer": 2,
+					"file": "blog/app/views/welcome/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1764,
+						"buffer_size": 2457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1735,
-								1735
+								221,
+								221
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 604.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog/app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
