@@ -1,20 +1,23 @@
 <% @retailer.each do |retailer| %>
 	<div class="col-md-3 retailer-col" id="retailer-<%= retailer.id %>">
-		<div class="admin-toolbar retailer-settings">
-			<%= link_to '', retailer_path(retailer), method: :delete, data: { confirm: 'Are you sure?' }, class: "fa fa-lg fa-minus" %><br/>
-			<a href="javascript:edit_retailer(<%= retailer.id %>)"><i class="fa fa-lg fa-pencil"></i></a>
-		</div>
-		
-		<% if !retailer.fb.blank? || !retailer.web.blank? %>
-			<div class="retailer-links">
-				<% if !retailer.fb.blank? %>
-					<a href="<%= retailer.fb %>"><i class="fa fa-lg fa-facebook"></i></a>
-				<% end %>
-				<% if !retailer.web.blank? %>
-					<a href="<%= retailer.web %>"><i class="fa fa-lg fa-globe"></i></a>
-				<% end %>
+		<div class="retailer-buttons">
+			<% if !retailer.fb.blank? || !retailer.web.blank? %>
+				<div class="retailer-links">
+					<% if !retailer.fb.blank? %>
+						<a href="<%= retailer.fb %>"><i class="fa fa-lg fa-facebook"></i></a>
+					<% end %>
+					<% if !retailer.web.blank? %>
+						<a href="<%= retailer.web %>"><i class="fa fa-lg fa-globe"></i></a>
+					<% end %>
+				</div>
+			<% end %>
+			<% if user_signed_in? %>
+			<div class="admin-toolbar retailer-settings">
+				<%= link_to '', retailer_path(retailer), method: :delete, data: { confirm: 'Are you sure?' }, class: "fa fa-lg fa-minus" %><br/>
+				<a href="javascript:edit_retailer(<%= retailer.id %>)"><i class="fa fa-lg fa-pencil"></i></a>
 			</div>
-		<% end %>
+			<% end %>
+		</div>
 
 		<p class="retailers-name"><i class="fa fa-lg fa-tag"></i><%= retailer.name %></p>
 		<p class="retailers-phone"><i class="fa fa-lg fa-phone"></i><%= retailer.phone %></p>

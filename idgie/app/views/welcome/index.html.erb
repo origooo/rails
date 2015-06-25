@@ -1,6 +1,3 @@
-<!-- <div class="container">
-	<div class="menu-logo"></div>
-</div> -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -32,6 +29,11 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <% if user_signed_in? %>
+          <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
+        <% else %>
+          <li><%= link_to 'Sign in', new_user_session_path %></li>
+        <% end %>
         <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
         <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
@@ -39,16 +41,28 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-
-<%= link_to 'Sign in', new_user_session_path %>
-<%= link_to 'Sign out', destroy_user_session_path %>
-
-
-  <!-- <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p> -->
+<% if user_signed_in? %>
+  <div class="alert-notice-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        Logged in as user: <%= current_user.email %> (Session ID: <%= user_session %>)
+          <p class="notice"><%= notice %></p>
+          <!-- <p class="alert"><%= alert %></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
 
 <div class="jumbotron">
 </div>
+
+<!-- <div class="bg"></div>
+<div class="jumbotron">
+  <h1>Bootstrap Jumbotron</h1>
+  <p class="lead">+ Parallax Effect using jQuery</p>
+</div> -->
 
 <div class="row row-section-header">
 	<div class="container">
@@ -57,11 +71,14 @@
 		</div>
 	</div>
 </div>
-<div class="row admin-toolbar">
-	<div class="col-md-1 col-md-offset-11">
-		<a href="javascript:add_retailer();"><i class="fa fa-lg fa-plus"></i></a>
-	</div>
-</div>
+
+<% if user_signed_in? %>
+  <div class="row admin-toolbar">
+  	<div class="col-md-1 col-md-offset-11">
+  		<a href="javascript:add_retailer();"><i class="fa fa-lg fa-plus"></i></a>
+  	</div>
+  </div>
+<% end %>
 <div class="container">
 	<div class="row" id="retailers">
 	</div>

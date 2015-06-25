@@ -188,34 +188,26 @@
 	"buffers":
 	[
 		{
-			"file": "blog/app/assets/stylesheets/additions_and_overrides.sass",
+			"file": "idgie/app/views/welcome/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 4587,
+				"buffer_size": 3014,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "blog/app/assets/javascripts/scripts.js",
+			"file": "idgie/app/assets/javascripts/scripts.js",
 			"settings":
 			{
-				"buffer_size": 922,
+				"buffer_size": 1171,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "blog/app/views/welcome/index.html.erb",
+			"file": "idgie/app/assets/stylesheets/additions_and_overrides.sass",
 			"settings":
 			{
-				"buffer_size": 2457,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/app/controllers/users_controller.rb",
-			"settings":
-			{
-				"buffer_size": 50,
+				"buffer_size": 2255,
 				"line_ending": "Unix"
 			}
 		}
@@ -362,19 +354,30 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/patrikbackstrom/Git/RoR/blog",
-		"/Users/patrikbackstrom/Git/RoR/blog/app",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/models",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/layouts",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers",
-		"/Users/patrikbackstrom/Git/RoR/blog/config",
-		"/Users/patrikbackstrom/Git/RoR/blog/config/initializers",
-		"/Users/patrikbackstrom/Git/RoR/blog/db",
-		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate"
+		"/Users/patrikbackstrom/Git/RoR/idgie",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/assets"
 	],
 	"file_history":
 	[
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/retailers/index.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/devise/shared/_links.erb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/devise/shared/_links.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/models/user.rb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/db/migrate/20150624213851_devise_create_users.rb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/devise/registrations/new.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/assets/stylesheets/application.scss",
+		"/Users/patrikbackstrom/Git/RoR/idgie/Gemfile",
+		"/Users/patrikbackstrom/Git/Websites/idgie.se/css/main.css",
+		"/Users/patrikbackstrom/Git/Websites/idgie.se/index.php",
+		"/Users/patrikbackstrom/Git/RoR/idgie/config/initializers/devise.rb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/controllers/retailers_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/layouts/application.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/idgie/app/views/devise/sessions/new.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/users_controller.rb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/views/welcome/index.html.erb",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/scripts.js",
+		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/additions_and_overrides.sass",
 		"/Users/patrikbackstrom/Git/RoR/.gitignore",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/layouts/application.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/config/environments/development.rb",
@@ -387,18 +390,14 @@
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/edit.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/config/initializers/devise.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/db/migrate/20150624200451_devise_create_admins.rb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/javascripts/scripts.js",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/views/welcome/index.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/index.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/_form.html.erb",
-		"/Users/patrikbackstrom/Git/Websites/idgie.se/css/main.css",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/retailers_controller.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/_form.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/controllers/articles_controller.rb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/retailers/new.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/edit.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/new.html.erb",
-		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/additions_and_overrides.sass",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/index.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/views/articles/show.html.erb",
 		"/Users/patrikbackstrom/Git/RoR/blog/app/assets/stylesheets/welcome.scss",
@@ -464,7 +463,6 @@
 		"/Users/patrikbackstrom/Git/T4/Patrik/Project/SteeringData.h",
 		"/Users/patrikbackstrom/Git/T4/Patrik/Project/Driver.cpp",
 		"/Users/patrikbackstrom/Git/T4/Patrik/Project/SteeringData.cpp",
-		"/Users/patrikbackstrom/Git/Websites/idgie.se/index.php",
 		"/Users/patrikbackstrom/Desktop/mat.txt",
 		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/sections/methodology.tex",
 		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/sections/introduction.tex",
@@ -489,20 +487,7 @@
 		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 1/Assignment_bib.bib",
 		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 1/sections/introduction.tex",
 		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 1/sections/methodology.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 1/Assignment_1.tex",
-		"/Users/patrikbackstrom/Git/T5 Project/final_report/final_report_innit.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT565 Software Engineering and Management Bachelor Thesis Project/thesis_proposal/thesis_bib.bib",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 5/Assignment_bib.bib",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/roadmap.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/Assignment.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/sections/purpose.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 6/Review of Group X/review_of_assignment_6_group_X.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/videoscript.txt",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/problem.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/impact.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/dissemination.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/executive.tex",
-		"/Users/patrikbackstrom/Git/T6/DIT595 Industrial best practice/Assignment (LaTeX)/sections/summary.tex"
+		"/Users/patrikbackstrom/Git/T6/DIT590 Research Methods & Technical Writing/Assignments/Assignment 1/Assignment_1.tex"
 	],
 	"find":
 	{
@@ -522,6 +507,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";",
+			"}",
+			"{",
+			";",
 			"mailer",
 			";",
 			"col-md-4",
@@ -645,11 +634,7 @@
 			"staffcomponent_employeeimpl",
 			"TODO",
 			"todo",
-			"to-do",
-			"BookingComponent_GuestImpl",
-			"post release",
-			"cross-functional",
-			"\"s-f\""
+			"to-do"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -672,28 +657,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "blog/app/assets/stylesheets/additions_and_overrides.sass",
+					"file": "idgie/app/views/welcome/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4587,
+						"buffer_size": 3014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4587,
-								4587
+								2436,
+								2436
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1216.0,
+						"translation.y": 689.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -701,19 +687,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "blog/app/assets/javascripts/scripts.js",
+					"file": "idgie/app/assets/javascripts/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 922,
+						"buffer_size": 1171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								922,
-								922
+								531,
+								531
 							]
 						],
 						"settings":
@@ -725,59 +711,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "blog/app/views/welcome/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "blog/app/controllers/users_controller.rb",
+					"buffer": 2,
+					"file": "idgie/app/assets/stylesheets/additions_and_overrides.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50,
+						"buffer_size": 2255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								368,
+								368
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -829,7 +786,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
-	"project": "blog.sublime-project",
+	"project": "idgie.sublime-project",
 	"replace":
 	{
 		"height": 42.0

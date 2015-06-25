@@ -1,4 +1,7 @@
 class RetailersController < ApplicationController
+
+	#before_filter :authenticated!
+
 	def index
 		@retailer = Retailer.all
 	end

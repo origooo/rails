@@ -12,6 +12,16 @@ $(window).load(
 	}
 );
 
+// var jumboHeight = $('.jumbotron').outerHeight();
+// function parallax(){
+//     var scrolled = $(window).scrollTop();
+//     $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+// }
+
+// $(window).scroll(function(e){
+//     parallax();
+// });
+
 function add_retailer() {
 	$.get("/retailers/new", function(response) {
 		console.log("Loading 'Add Retailer'...");
