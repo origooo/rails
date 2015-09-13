@@ -1,0 +1,10 @@
+<%= form_for [@post, @post.comments.build] do |c| %>
+	
+	<%= c.text_area :text, :class => "text-area-full-width" %>
+
+	<%= hidden_field_tag :return_to_show_post %> <!-- Flag for returning to the current post in "show" view -->
+
+	<%= c.submit "Post" %> <em>as <strong>Display Username</strong></em>
+	<br/>Remove when User functionality is implemented <%= c.text_field :user %>
+	
+<% end %>

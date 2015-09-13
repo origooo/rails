@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="container">
+    <div class="col-md-12">
+      <%= paginate @posts %> | <%= link_to 'New', new_post_path %>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-8">
+      <% @posts.each do |post| %>
+        <% if post.is_published? %>
+          <div class="content-box">
+            <h1 class="h1-override"><%= post.title %></h1>
+            <strong>Posted <%= post.created_at.strftime("%F") %> by <%= post.author %></strong><br/>
+            <%= link_to 'Delete', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } %> | <%= link_to 'Edit', edit_post_path(post) %><br/>
+            <p>
+              <%=raw post.introduction %>
+            <em> - <%= link_to 'Read more...', post_path(post) %></em>
+            </p>
+            <!-- <p>
+              <%=raw post.text %>
+            </p>
+            <div class="post-image-container">
+              <%= render post.images %>
+            </div>
+
+            <div class="post-comment-container">
+              <h1> Comments </h1>
+              <%= render post.comments %>
+              <h1>Add comment</h1>
+              <%= render :partial => 'comments/form', :locals => { :post => post } %>
+            </div> -->
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <div class="content-box">
+      	<h3 class="h3-override">Posts</h3>
+        <% @posts.each do |post| %>
+	        <% if post.is_published? #&& user_is_admin? %>
+      			<%= link_to post.created_at_pretty + " " + post.title, post_path(post) %><br/>
+      		<% else %>
+	      		<%= link_to post.created_at_pretty + " " + post.title + " (unpublished)", edit_post_path(post), { :class => "sidebar-unpublished-link" } %><br/>
+	      	<% end %>
+      	<% end %>
+      </div>
+    </div>
+  </div>
+</div>

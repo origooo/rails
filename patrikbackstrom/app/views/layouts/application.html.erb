@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>patrikbackstrom.com</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body id="body">
+
+<div class="jumbotron" id="jumbotron">
+  <div class="jumbotron" id="jumbotron-overlap">
+    <div class="container">
+      <h1>Patrik Bäckström</h1>
+      <h3><i>Customer oriented developer</i></h3>
+    </div>
+  </div>
+</div>
+
+<%= render 'layouts/topnav' %>
+<%= render 'layouts/you_are_here' %>
+<%= render 'layouts/flash' %>
+
+<%= yield %>
+
+<!-- <div class="jumbotron" id="jumbotron-about-me">
+  <div class="jumbotron" id="jumbotron-about-me-overlap">
+    <div class="container">
+      <h1>About me</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <div class="col-md-8">
+
+      <span class="icon-text-container">
+        <span id="profile-pic"></span>
+        <span class="icon-text-content">
+          <div><div class="bold-font">Live in:</div> Göteborg, Sweden</div>
+          <div><div class="bold-font">Work:</div> CEO, We Know IT Sweden AB</div>
+          <div><div class="bold-font">Education:</div> B.Sc. in Software Engineering & Management, University of Gothenburg, Sweden</div>
+          <div><div class="bold-font">Born in:</div> Karlskrona, Sweden</div>
+        </span>
+      </span>
+      <div class="row">
+        <h1 class="h1-override">About me</h1>
+        I’m Patrik Bäckström, sending you this cover letter looking for internship and job opportunities for the summer of 2014. I’m in the middle of studying Software Engineering and Management at University of Gothenburg, with a prominent interest in technology and software development. Professionally, I am social and progress driven, and eager to take my first step out to the industry. Saying that, a job opportunity at Your company could be the beginning of a longer employee relationship.
+
+        <h3 class="h3-override">A gap in today's market</h3>
+
+        My take on today’s IT market is that there is a huge gap between customers and developers. Among developers they speak about technical solutions, whereas customers speak about functionality. It is clear that they don't speak the same language and that they fail to communicate ideas. All organisations need a person in between who bridges the gap, translates thoughts and who understands the customer’s vision.<br/><br/>
+
+        Bridging this gap is one of the foremost features of successful companies. These companies achieves high customer satisfaction and growth, and gains competitive edge with the ability to move the industry forward.
+
+        <h3 class="h3-override">Bridging the gap as a customer oriented developer</h3>
+
+        Due to years of experience in communicating strategies between customers and colleagues, I see myself bridging that gap with an evident knowledge of software development. During my studies I have learnt how to simplify that process and present it in an understandable yet still extensive enough manner. I know that quality and long term customer relations can be achieved by iterating that process with an aim to listen to everyone from end users to stakeholders.<br/><br/>
+
+        As a customer oriented developer, I want to have a key role in implementing ideas, and by that expanding my knowledge of software development and programming.<br/><br/>
+
+        As a student, I am involved in a lot of different projects spanning from developing web services to low level embedded systems. By working experience I know that I am a natural leader, happily taking responsibility for pre-project and on-going tasks, like planning of iterations, assigning work, and to follow up progress.<br/><br/>
+
+        Regards,<br/>
+        Patrik Bäckström
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <span class="icon-text-container">
+        <span id="social1"></span>
+        <span class="icon-text-content icon-text-content-oneline">We Know IT</span>
+      </span>
+      <span class="icon-text-container">
+        <span id="social2"></span>
+        <span class="icon-text-content icon-text-content-oneline">Volvo Cars Corporation</span>
+      </span>
+      <span class="icon-text-container">
+        <span id="social2"></span>
+        <span class="icon-text-content icon-text-content-oneline">University of Gothenburg</span>
+      </span>
+    </div>
+  </div>
+</div> -->
+</body>
+</html>

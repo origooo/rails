@@ -1,0 +1,50 @@
+<%= form_for @post do |p| %>
+ 
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@post.errors.count, "error") %> prohibited
+        this post from being saved:
+      </h2>
+      <ul>
+        <% @post.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= p.label :title %>
+  <%= p.text_field :title %><br/>
+
+  <%= p.label :author %>
+  <%= p.text_field :author %>
+
+  <br/><br/>
+  <div class="post-picture-container">
+  <div>
+   Image name | File name | Remove
+  </div><br/>
+  <%= p.fields_for :images do |i| %> 
+    <div>
+      <%= i.text_field :name %><%= i.text_field :filename %><%= i.check_box :_destroy %>
+    </div><br/>
+  <% end %>
+ 
+  <p>
+    <%= p.label :introduction %><br/>
+    <%= p.text_area :introduction, cols: 80, rows: 4 %>
+  </p>
+  <p>
+    <%= p.label :text %><br/>
+    <%= p.text_area :text, cols: 80, rows: 20 %>
+  </p>
+  
+  <p>
+    <%= p.label :published %><%= p.check_box :published %>
+  </p>
+  <p>
+    <%= p.submit "Post" %>
+  </p>
+ 
+<% end %>

@@ -1,0 +1,229 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic)
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,400italic) /* Ubuntu */
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700) /* Quicksand */
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,700,400italic) /* Gudea */
+
+$defaultTextColor: #555
+$background: White
+
+$jumboPurple: #9370DB
+
+// $menuBG: #FFFAFA
+$menuBG: White
+$menuBGHighlight: $jumboPurple
+$menuHighlightTextColor: #FFFAFA
+
+#body
+	// background-color: $background
+	background-color: rgb(249,249,249)
+	color: $defaultTextColor
+	font-family: 'Quicksand', sans-serif
+
+.h1-override
+	color: $jumboPurple
+
+.h2-override
+	color: $defaultTextColor
+
+.h3-override
+	color: $defaultTextColor
+
+#jumbotron.jumbotron, #jumbotron-about-me.jumbotron
+	background-color: $jumboPurple !important /* 7B68EE 993399 9370DB */
+	color: #FFFAFA
+	margin: 0px
+	padding: 0px
+	h1
+		text-shadow: 0px 0px 12px rgba(84,84,84, 1)
+	h3
+		text-shadow: 0px 0px 6px rgba(84,84,84, 1)
+	.jumbotron
+		background: transparent
+		height: 50%
+		position: relative
+		top: 0px
+
+.center-container
+	margin: 0 auto
+
+#jumbotron-about-me
+	margin-top: 20px !important
+	margin-bottom: 20px !important
+
+#jumbotron-about-me-overlap
+	padding: 15px
+
+.sidebar
+	border-left: 1px dashed $jumboPurple
+	height: 200px
+	padding: 10px
+
+.sidebar-unpublished-link
+	color: #555
+
+#footer
+	background-color: transparent //$jumboPurple
+	margin-bottom: 0px
+	margin-top: 0px
+	padding: 0px
+	.about-me-box
+		-moz-border-radius: 35px
+		background-color: $background
+		border-radius: 35px
+		border: 10px solid $jumboPurple
+		padding: 20px
+	.h3-override
+		font-size: 24px
+		text-align: center
+	.h1-override
+		color: $jumboPurple
+		font-size: 36px
+		text-align: center
+
+#profile-pic
+	-moz-border-radius: 80px
+	-webkit-border-radius: 80px
+	background: url('profile.JPG') no-repeat center center
+	border-radius: 80px
+	height: 160px
+	width: 160px
+	float: left
+	margin-right: 20px
+	
+#social1
+	background: url("social-icons/github.png") no-repeat center center
+
+#social2
+	background: url("social-icons/linkedin.png") no-repeat center center
+
+#social3
+	background: url("social-icons/facebook.png") no-repeat center center
+
+#social1, #social2, #social3
+	background-size: 100% 100%
+	position: relative
+	height: 80px
+	width: 80px
+	float: left
+	margin-right: 10px
+
+.icon-text-container
+	width: 100%
+	height: 80px
+	position: relative
+	// border: 1px solid blue
+	display: block
+	margin-bottom: 10px
+
+.icon-text-content
+	height: 80px
+	position: absolute
+	vertical-align: middle
+	display: inline-block
+
+.icon-text-content-oneline
+	line-height: 80px
+	font-size: 14px
+
+.bold-font
+	font-face: 'Quicksand', sans-serif
+	font-weight: 700
+	display: inline
+
+.post-image-container
+	padding: 6px
+	border-bottom: 1px dashed $jumboPurple
+
+.post-image-thumb
+	width: 100px
+	opacity: 0.8
+	border: 2px solid #fff
+	vertical-align: text-top
+	// TODO: Set height and fade the bottom content (expand on hover?)
+	&:hover
+		opacity: 1
+		border: 2px solid #eee
+		cursor: pointer
+
+.text-area-full-width
+	width: 100%
+
+.post-picture-container
+	div
+		display: inline
+
+.content-box
+	// height: 100%
+	// overflow: scroll
+	padding: 10px
+	margin-bottom: 10px
+	background: $background
+	word-wrap: break-word
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(84,84,84,.3)
+	-moz-box-shadow: 0px 0px 1px 0px rgba(84,84,84,.3)
+	box-shadow: 0px 0px 1px 0px rgba(84,84,84,.3)
+
+/* Override of Bootstrap default navbar */
+
+$dropDown: false
+#menu.navbar-default 
+	background-color: $menuBG
+	border-color: $menuBGHighlight
+	border-bottom: none
+	border-top: none
+	/*-moz-box-shadow:    0px 1px 2px 0px rgba(64,64,64,.1)*/
+	/*-webkit-box-shadow: 0px 1px 2px 0px rgba(64,64,64,.1)*/
+	/*box-shadow:         0px 1px 2px 0px rgba(64,64,64,.1)*/
+	.navbar-brand 
+		color: $defaultTextColor
+		&:hover, &:focus 
+		color: $menuHighlightTextColor
+	.navbar-text 
+		color: $defaultTextColor
+	.navbar-nav
+		> li 
+			> a 
+				color: $defaultTextColor
+				&:hover, &:focus 
+					color: $jumboPurple /*$menuHighlightTextColor*/
+			@if $dropDown
+				> .dropdown-menu
+					background-color: $menuBG
+					> li > a
+						color: $defaultTextColor
+						&:hover, &:focus
+							color: $menuHighlightTextColor
+							background-color: $menuBGHighlight
+					.divider
+						background-color: $menuBGHighlight
+		> .active 
+			> a, > a:hover, > a:focus 
+				color: $menuHighlightTextColor
+				background-color: $menuBGHighlight 
+		> .open 
+			> a, > a:hover, > a:focus 
+				color: $menuHighlightTextColor
+				background-color: $menuBGHighlight 
+	.navbar-toggle 
+		border-color: $menuBGHighlight
+		&:hover, &:focus 
+			background-color: $menuBGHighlight 
+		.icon-bar 
+			background-color: $defaultTextColor
+	.navbar-collapse,
+	.navbar-form 
+		border-color: $defaultTextColor 
+	.navbar-link 
+		color: $defaultTextColor
+		&:hover 
+			color: $menuHighlightTextColor 
+@media (max-width: 767px) 
+	.navbar-default .navbar-nav .open .dropdown-menu 
+		> li > a 
+			color: $defaultTextColor
+			&:hover, &:focus 
+				color: $menuHighlightTextColor
+		> .active 
+			> a, > a:hover, > a:focus 
+				color: $menuHighlightTextColor
+				background-color: $menuBGHighlight
